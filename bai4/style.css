@@ -1,3 +1,24 @@
+p{
+    color:red;
+    background-color:blue;
+}
+.box1{
+    color:green;
+}
+.box2{
+    color:white;
+    margin:50px 100px;
+    /* truyền giá trị 1 là trên dưới 2 là trái phải */
+    margin:50px 30px 10px 100px;
+    /* truyền giá trị theo chiều kim đồng hồ trên phải dưới trái */
+    width:50px;
+    /* margin:auto;căn khối ra giữa */
+    /* margin:50px auto căn lề trên dưới 50px xong căn giữa */
+
+}
+.box3{
+    color:aqua;
+}
 h3 {
     color:orange;
 
