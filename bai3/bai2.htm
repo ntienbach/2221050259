@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee>
+        <img src="Ảnh chụp màn hình 2025-04-23 025211.png">
+    </marquee>
+    <h1>Bài 3</h1>
+    <p>Danh sách tạo công việc buổi sáng</p>
+    <br>
+    <ol>
+       <li>Thức dậy</li>
+        <li>Ăn sáng</li>
+         <li>Đánh răng</li>
+          <li>Rửa mặt</li>
+           <li>Giải lao</li>
+
+    </ol>
+    <ul>
+        <li>Thức dậy</li>
+        <li>Ăn sáng</li>
+        <li>Đánh răng</li>
+        <li>Giải lao</li>
+        <li>Đánh răng</li>
+    </ul>
+    <ul>
+        <li>Ngôn ngữ python</li>
+         <li>Ngôn ngữ javacrip</li>
+          <li>Ngôn ngữ c++</li>
+           <li>Ngôn ngữ c#</li>
+    </ul>
+    <form>
+        <div>
+            <b>Nhập họ và tên</b><br>
+            <input type="text" name="hoten" placeholder="Nhập tên vào đây">
+        </div>
+        <div>
+            <b>Năm</b><br>
+            <input type="year" name="nam" value="2025" readonly>
+        </div>
+        <br>
+        <div>
+            <b>Giới thiệu bản thân</b><br>
+            <textarea name="gioithieu">Nhập giới thiệu</textarea>
+        </div>
+        <br>
+        <div>
+            <b>Nhập email</b><br>
+            <input type="email" name="youremail" placeholder="Dạng @gmail.com">
+        </div>
+        <br>
+
+        <div>
+            <b>Nhập password</b>
+            <br>
+            <input type="password" name="password" placeholder="nhập mật khẩu ">
+
+
+        </div>
+        <div>
+    <b>Số điện thoại</b><br>
+    <input type="telephone" type="tel" placeholder="Dạng số 1-234-5678-9" 
+     required pattern="[0-9]{1}(-[0-9]{2}(-[0-9]{3})(-[0-9]{4}))"> 
+     <!-- required pattern="([0]{1}([0,3,9]{1})([0-9]{8}))"> -->
+
+    
+
+</div>
+<div>
+    <b>số điện thoại</b><br>
+    <input type="tel" name="tel" placeholder="dạng 0-1-23456789"
+    required pattern="([0]{1}([0,3,9])([0-9]{8}))">
+    
+    <div>
+    
+    
+
+</div>
+</div>
+        <br>
+        <div>
+            <b>Nhập file </b><br>
+            <input type="file" >
+        </div>
+        <br>
+        <div>
+            <b>Chọn màu sắc yêu thích</b><br>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <b>reset lại tất cả</b><br>
+            <input type="reset">
+        </div>
+        <div>
+            <b>chọn ngày tháng năm sinh</b>
+            <br>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <b>tuổi</b><br>
+            <input type="age" name="age" step="1.5">
+        </div>
+        <div>
+            <b>Giới tính</b>
+            <br>
+            <input type="radio" name="gender" value="nam">nam<br>
+             <input type="radio" name="gender" value="nu">nu<br>
+              <input type="radio" name="gender" value="khongxacdinh">khongxacdinh<br>
+
+        </div>
+        <div>
+            <b>Sở thích</b><br>
+            <input type="checkbox" name="sothich" value="game">game<br>
+            <input type="checkbox" name="sothich" value="music">music<br>
+            <input type="checkbox" name="sothich" value="sport">sport<br>
+            
+        </div>
+        <div>
+            <b>Trình duyệt yêu thích</b><br>
+            <input list="brower">
+            <datalist id="brower">
+                <option value="Chorme"></option>
+                <option value="Safari"></option>
+                <option value="opera"></option>
+                <option value="Cốc cốc"></option>
+            </datalist>
+        </div>
+        <div>
+            <select>
+                <option value="Chorme">Chorme</option>
+                <option value="Coccoc">Coccoc</option>
+                <option value="Safari">Safari</option>
+                <option value="Opera">Opera<option>
+                <option value="Internet explorer">Internet explorer</option>
+
+            </select>
+        </div>
+        <div>
+            <b>âm lượng</b><br>
+            0<input type="range" value="20">100
+        </div>
+    </form>
+    <video controls width="560" height="315">
+        <source src="video.mp4.mp4" type="video/mp4">
+    </video>
+    <audio controls width="560" height="315">
+        <source src="audio.mp3.mp3" type="audio/mp4">
+    </audio>
+</body>
+</html>
