@@ -1,0 +1,31 @@
+.noidungtrai{
+    width:20%;
+  
+    
+}
+.noidungphai{
+    width:80%;
+   
+    
+    
+}
+.thongbao-1{
+    
+    list-style: none;
+
+}
+.noidung{
+    display:flex;
+}
+.thongbao-2{
+    text-decoration: none;
+    display:flex;
+    border:2px;
+
+}
+.ngay-gio{
+    margin-left: 90%;
+   
+
+}
+
