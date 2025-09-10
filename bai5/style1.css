@@ -15,9 +15,10 @@ margin:0;
     margin:10px;
 }
 .danhmuc-danhsach{
-    display:flex;
+    display:flex;  
+    /* float:left; */
      list-style:none;
-    /* list-style:none nằm ngang */ 
+    /* list-style:none bỏ chấm */ 
 }
 .danhmuc-lienket{
     font-size:x-large;

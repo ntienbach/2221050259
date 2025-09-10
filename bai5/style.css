@@ -17,7 +17,7 @@ margin:0;
 .danhmuc-danhsach{
     display:flex;
      list-style:none;
-    /* list-style:none nằm ngang */ 
+    /* list-style:none bỏ dấu chấm */ 
 }
 .danhmuc-lienket{
     font-size:x-large;
