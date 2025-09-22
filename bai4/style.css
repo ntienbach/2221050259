@@ -1,33 +1,18 @@
-p{
-    color:red;
-    background-color:blue;
+main{
+    display:flex;
 }
-.box1{
-    color:green;
+.cottrai{
+    width:40%;
+    margin-left:10%;
 }
-.box2{
-    color:white;
-    margin:50px 100px;
-    /* truyền giá trị 1 là trên dưới 2 là trái phải */
-    margin:50px 30px 10px 100px;
-    /* truyền giá trị theo chiều kim đồng hồ trên phải dưới trái */
-    width:50px;
-    /* margin:auto;căn khối ra giữa */
-    /* margin:50px auto căn lề trên dưới 50px xong căn giữa */
+.cotphai{
+    width:60%;
+    
+}
+ .form{
+    width:80%;
+    background-color:black;
+    margin:auto;
 
-}
-.box3{
-    color:aqua;
-}
-h3 {
-    color:orange;
 
-}
-
-#title{
-  
-        background-color:aqua;
-    }
-.bg{
-    background-color:blueviolet;
 }

@@ -1,0 +1,125 @@
+body{
+    
+    margin:0px;
+}
+header{
+    background-color:black;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    width:70%;
+    margin:auto;
+}
+.danhmuc{
+    display:flex;
+     align-items: center;
+     gap:20px;
+     padding:10px;
+}
+ul{
+    display:flex;
+    list-style: none;
+    padding:0;
+    gap:20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+     color: #9b9b9b;
+    font-size: 16px;
+    font-family: "SFProDisplay", Arial, sans-serif;
+
+}
+a:hover{
+    color:orange;
+}
+.logo{
+    width:15%;
+}
+.chucnang{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.muagoi{
+    background-color:orange;
+    border-radius: 10px;
+    color:white;
+    width:100px;
+    padding:10px 20px;
+
+}
+.dangnhap{
+border:none;
+color:white;
+background-color:black;
+width:100px;
+}
+.quangcao{
+    display:flex;
+    justify-content:center;
+}
+main{
+    background-color: #131314;
+    color:white;
+    width:100%;
+}
+.container{
+    width:70%;
+    background-color:black;
+    margin:auto;
+}
+.banner{
+    width:98%;
+}
+.qc{
+    width:98%;
+}
+.tentheloai{
+    margin:20px;
+}
+.danhsach{
+     display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.phim{
+    width:19%;
+}
+.phim img{
+    width:100%;
+    border-radius:10px 10px 0px 0px;
+}
+.ten{
+    margin-top:2%;
+}
+footer{
+    background-color:black
+}
+.footer-0{
+    width:70%;
+    margin:auto;
+    color: #fff;
+  padding: 30px 60px;
+  display: flex;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr; 
+  gap: 80px;
+  align-items: start; 
+  
+  
+}
+.footer-1 ul{
+    display:block;
+}
+.footer-1 img {
+  max-width: 120px; 
+  height:auto;
+  margin-bottom: 10px;
+}
+.footer-2 ul{
+display:block
+}
+.footer-3 ul{
+    display:block;
+}

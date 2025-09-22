@@ -2,7 +2,7 @@
   background-color: #000;
   color: #fff;
   padding: 30px 60px;
-  display: block;
+  display: flex;
   grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
   gap: 30px;
   align-items: start; /* các cột căn từ trên xuống */
