@@ -10,61 +10,28 @@
 
 <body>
     <script>
-        // let hoTen = "Ngo Ngoc Anh" + "<br>";
-        // document.writeln("hello word;" + "123" + "<br>");
-        //Cu pháp let tên biến =giá trị;
-        //để nối chuỗi ta dùng dấu cộng 
+    let thongTinSinhVien = {
+        hoTen: "Le Truong An",
+        maSoSinhVien: "2221050252",
+        lop: "daihoc_Mang May Tinh_ k67A",
+        tuoi: 20,
+        gioiTinh: true,
+        diaChi: {}
+    };
 
-        // document.writeln(hoTen);
-        // let soThuNhat = 5;
-        // let soThuHai = 2;
-        // let KetQua;
-        // ketQua = soThuNhat + soThuHai;
-        //phép cộng dùng dấu +;
-        //phép chia dùng dấu/;
-        //phép - dùng dấu -;
-        // dùng phép cộng phải đặt trước mới có kết quả;
-        // soThuNhat+= soThuHai;
-        // soThuNhat-=soThuHai;
-        // soThuNhat*=soThuHai;
-        //  soThuNhat/=soThuHai;
-        // soThuNhat %=3;
-        // document.writeln(ketQua);
-        //=== so sánh kiểu dữ liệu;
-        //!== so sánh chỉ cần 1 thỏa mãn thôi là ok;
-        // ! phủ định dùng trước 
-        // document.writeln(soThuNhat);
-        // > < = <= >=
+    let diaChiNhaBanAn = {
+        thanhPho: "ThanhHoa",
+        phuong: "taoXuyen",
+        duong: "nguyetVien",
+        soNha: 123,
+    };
 
+    thongTinSinhVien.diaChi = diaChiNhaBanAn;
 
-        let thongTinSinhVien = {
-            hoTen: "Le Truong An",
-            maSoSinhVien: "2221050252",
-            lop: "daihoc_Mang May Tinh_ k67A",
-            tuoi: 20,
-            gioiTinh: True,
-            diaChi:{
+    document.writeln("xinChao " + thongTinSinhVien.hoTen + " " + thongTinSinhVien.tuoi + " " + thongTinSinhVien.diaChi.phuong + " " + thongTinSinhVien.diaChi.thanhPho + "<br>");
 
-            }
-
-
-        }
-
-        thongTinSinhVien.diaChi = diaChiNhaBanAn;
-        let diaChiNhaBanAn = {
-            thanhPho: "ThanhHoa",
-            phuong: "taoXuyen",
-            duong: "nguyetVien",
-            soNha: 123,
-        }
-       
-         document.writeln("xinChao" + thongTinSinhVien.hoTen + thongTinSinhVien.tuoi
-            +thongTinSinhVien.diaChi.phuong+""+thongTinSinhVien.diaChi.thanhPho
-        )
-         let namNay=2025;
-
-        
-    </script>
+    let namNay = 2025;
+    document.writeln("Bạn " + thongTinSinhVien.hoTen + " Sinh năm " + (namNay - thongTinSinhVien.tuoi));
+</script>
 </body>
-
 </html>
