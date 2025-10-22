@@ -1,0 +1,72 @@
+
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 11</title>
+</head>
+<body>
+    <h1>Bài 11</h1>
+    <h2>Tính điểm</h2>
+
+    <div>
+        Điểm A: <input type="number" id="diemA" placeholder="Nhập điểm A">
+    </div>
+    <div>
+        Điểm B: <input type="number" id="diemB" placeholder="Nhập điểm B">
+    </div>
+    <div>
+        Điểm C: <input type="number" id="diemC" placeholder="Nhập điểm C">
+    </div>
+
+    <button onclick="tinhDiem()">Tính điểm</button>
+
+    <div>
+        <b>Kết Quả:</b> <span id="ketqua"></span>
+    </div>
+
+    <script>
+        document.getElementById('tinhDiem()');
+        function tinhDiem() {
+            let a = parseFloat(document.getElementById("diemA").value);
+            let b = parseFloat(document.getElementById("diemB").value);
+            let c = parseFloat(document.getElementById("diemC").value);
+
+            if (isNaN(a) || a < 0 || a > 10 ||
+                isNaN(b) || b < 0 || b > 10 ||
+                isNaN(c) || c < 0 || c > 10) {
+                document.getElementById("ketqua").innerText = "Điểm nhập không hợp lệ!";
+                return;
+            }
+
+            let tong = a * 0.6 + b * 0.3 + c * 0.1;
+            let diemChu = "";
+
+            if (tong > 9) {
+                diemChu = "A+";
+            } else if (tong >= 8.5) {
+                diemChu = "A";
+            } else if (tong >= 8) {
+                diemChu = "B+";
+            } else if (tong >= 7) {
+                diemChu = "B";
+            } else if (tong >= 6) {
+                diemChu = "C+";
+            } else {
+                diemChu = "C";
+            }
+
+            document.getElementById("ketqua").innerText = 
+                "Tổng điểm: " + tong.toFixed(2) + " → Điểm chữ: " + diemChu;
+        }
+    </script>
+</body>
+</html>
+    
+
+
+
+    
+    
+
